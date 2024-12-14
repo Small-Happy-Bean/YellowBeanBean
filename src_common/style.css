@@ -1,0 +1,29 @@
+@font-face {
+  font-family: AlibabaAgile;
+  src: url("./assets/font/AlimamaAgileVF-Thin.ttf");
+}
+
+@font-face {
+  font-family: AlibabaFangYuan;
+  src: url("./assets/font/AlimamaFangYuanTiVF-Thin.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Game Container */
+#bean-game {
+  font-family: AlibabaFangYuan, AlibabaAgile;
+  width: 100%;
+  background-color: #4b3830;
+}
+
+@media only screen and (min-width: 600px) {
+  #bean-game {
+    font-family: AlibabaFangYuan, AlibabaAgile;
+    width: 100%;
+    background-color: #504039;
+  }
+}

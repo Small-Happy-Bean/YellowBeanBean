@@ -1,0 +1,34 @@
+{
+  "name": "h5minigame",
+  "version": "1.0.0",
+  "description": "Created by Small-Happy-Bean.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "vite": "vite"
+  },
+  "keywords": [
+    "Mini-game",
+    "HTML5",
+    "Phaser3",
+    "Webpack",
+    "Vite",
+    "Practice"
+  ],
+  "author": "Small-Happy-Bean",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "vite": "^5.4.11",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "phaser": "^3.87.0"
+  }
+}
